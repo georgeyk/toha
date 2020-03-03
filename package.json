@@ -1,0 +1,22 @@
+{
+  "name": "toha",
+  "version": "0.0.1",
+  "description": "Toha",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url assets/sass/toha.sass assets/css/toha.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeyk/toha.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/georgeyk/toha"
+}
